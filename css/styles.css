@@ -1,0 +1,144 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 562.5%;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  color: #7FB77E;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #7FB77E;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #B1D7B4;
+}
+
+a {
+  color: #B1D7B4;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #F7F6DC;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #FFC090;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  margin: 50px auto 0 0;
+  background-color: #7FB77E;
+  border-bottom: 0;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.cooking-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.keychain-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #7FB77E;
+  background-image: -webkit-linear-gradient(top, #7FB77E, #B1D7B4);
+  background-image: -moz-linear-gradient(top, #7FB77E, #B1D7B4);
+  background-image: -ms-linear-gradient(top, #7FB77E, #B1D7B4);
+  background-image: -o-linear-gradient(top, #7FB77E, #B1D7B4);
+  background-image: linear-gradient(to bottom, #7FB77E, #B1D7B4);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1de397;
+  background-image: -webkit-linear-gradient(top, #1de397, #7FB77E);
+  background-image: -moz-linear-gradient(top, #1de397, #7FB77E);
+  background-image: -ms-linear-gradient(top, #1de397, #7FB77E);
+  background-image: -o-linear-gradient(top, #1de397, #7FB77E);
+  background-image: linear-gradient(to bottom, #1de397, #7FB77E);
+  text-decoration: none;
+}
+
+hr {
+  border: dotted #F7F6DC 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.copyright {
+  color: #F7F6DC;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
